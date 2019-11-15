@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en"  onkeyup="borrar(event2)">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img{
+            position:fixed;
+        }
+    </style>
+    <script type="text/javascript">
+            function click2(){
+                alert("Click");
+            }
+            function mouse(num){
+                if(num==1){
+                    alert("Raton entrando");
+                }else{
+                    alert("Raton salio");
+                }
+            }
+            function mousemovimiento(){
+                
+                    //alert("Raton moviendose");
+                
+            }
+
+
+    </script>
+
+    <script>
+        
+    </script>
+</head>
+<!-- onload="tabla()" -->
+<body onmousemove="move(event)">
+    
+    <img src="https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/3365/33511/QQ20190616161530__27532.1560727651.png?c=2" 
+     height="300px" width="300px" onclick="clickImagen(event)">
+    <img src="https://i.pinimg.com/originals/e8/da/a6/e8daa6ed5ef452f7adfd48fd00804c97.jpg" 
+     height="300px" width="300px" onclick="clickImagen(event)">
+    <img src="https://i.pinimg.com/736x/e7/96/8b/e7968b3d847c21b135f8bca88cf9354a.jpg" 
+    height="300px" width="300px" onclick="clickImagen(event)">
+    
+<!--    
+        <input type="button" onclick="click2()" value="click">
+        <div onmousemove="mousemovimiento()">movimiento</div>
+        <div onmouseover="mouse(1)" onmouseout="mouse(2)">entrada salida</div>
+
+ -->
+        
+    
+<!-- <script src="eventos-tabla.js"></script> -->
+<script src="eventos-imagenes.js"></script>
+</body>
+</html>

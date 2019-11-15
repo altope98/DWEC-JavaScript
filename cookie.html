@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="no-cookie">
+        <input id="nombre" type="text" name="nombre" required onkeyup="validacionusuario()"><br><br>
+        <input type="submit" name="enviar" id="enviar" onclick="crearcookie()" value="Enviar"><br>
+    </div>
+    <div id="colores">
+        <label for="">Color de fondo</label>
+        <input id="fondo" type="text" name="fondo"><br><br>
+        <label for="">Color de parrafo</label>
+        <input id="parrafo" type="text" name="parrafo"><br><br>
+        <label for="">Tamañao letra</label>
+        <input id="letra" type="text" name="letra"><br><br>
+        <input type="submit" name="enviar" id="enviar" onclick="cambiarcolores()" value="Enviar"><br>
+    </div>
+
+        <input type="submit" name="borrar" id="borrar" onclick="borrar()" value="Cerrar sesion">
+    
+    <script src="cookie.js"></script>
+</body>
+</html>
